@@ -4,8 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-
-        SortableArray<String> o=new SortableArray<String>(new SortableListimpl());
+        SortableArray<String> o = new SortableArray<String>(new SortableListimpl());
 
         o.add("zzzciao");
         o.add("zzzzzzzzzzzzzciao");
@@ -13,7 +12,7 @@ public class Main {
         o.remove("ciao");
         o.add("sads");
         o.add("helloo");
-        o.add("local");
+        o.add("checkaout");
 
         o.sort();
 
