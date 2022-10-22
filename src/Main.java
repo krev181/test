@@ -13,6 +13,8 @@ public class Main {
         o.remove("ciao");
         o.add("sads");
         o.add("helloo");
+        o.add("local");
+
         o.sort();
 
         o.print();
