@@ -12,6 +12,7 @@ public class Main {
         o.add("ciao");
         o.remove("ciao");
         o.add("sads");
+        o.add("helloo");
         o.sort();
 
         o.print();
